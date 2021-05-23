@@ -10,4 +10,5 @@ class concert extends Model
     use HasFactory;
 
     protected $guarded = [];
+    protected $dates = ['date'];
 }
